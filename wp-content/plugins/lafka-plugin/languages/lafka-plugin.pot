@@ -1,0 +1,3360 @@
+# Copyright (C) 2019 theAlThemist
+# This file is distributed under the same license as the Lafka Plugin plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Lafka Plugin 3.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lafka-plugin\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-07T11:07:37+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.3.0\n"
+"X-Domain: lafka-plugin\n"
+
+#. Plugin Name of the plugin
+msgid "Lafka Plugin"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.althemist.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin containing the Lafka theme functionality"
+msgstr ""
+
+#. Author of the plugin
+msgid "theAlThemist"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:132
+#: importer/lafka-wordpress-importer.php:141
+#: importer/lafka-wordpress-importer.php:192
+#: importer/lafka-wordpress-importer.php:196
+#: importer/lafka-wordpress-importer.php:205
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:133
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:176
+msgid "All done."
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:176
+msgid "Have fun!"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:177
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:197
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:213
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:238
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:264
+msgid "Assign Authors"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:265
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:267
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:277
+msgid "Import Attachments"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:280
+msgid "Download and import file attachments"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:284
+msgid "Submit"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:297
+msgid "Import author:"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:309
+msgid "or create new user with login name:"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:312
+msgid "as a new user:"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:320
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:322
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:323
+msgid "- Select -"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:373
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:426
+msgid "Failed to import category %s"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:470
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:521
+#: importer/lafka-wordpress-importer.php:741
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:610
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:646
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:708
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:873
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:880
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:943
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:956
+msgid "Invalid file type"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:1006
+msgid "Remote server did not respond"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:1014
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:1021
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:1026
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:1032
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:1133
+msgid "Import WordPress"
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:1140
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:1155
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: importer/lafka-wordpress-importer.php:1156
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: importer/parsers.php:45
+#: importer/parsers.php:86
+#: importer/parsers.php:94
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: importer/parsers.php:46
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: importer/parsers.php:98
+#: importer/parsers.php:103
+#: importer/parsers.php:331
+#: importer/parsers.php:549
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: incl/addons/admin/class-lafka-product-addon-admin.php:27
+#: incl/addons/admin/views/html-global-admin.php:9
+msgid "Lafka Global Add-ons"
+msgstr ""
+
+#: incl/addons/admin/class-lafka-product-addon-admin.php:59
+msgid "Add-on saved successfully"
+msgstr ""
+
+#: incl/addons/admin/class-lafka-product-addon-admin.php:74
+msgid "Error: Global Add-on not found"
+msgstr ""
+
+#: incl/addons/admin/class-lafka-product-addon-admin.php:102
+#: incl/addons/admin/class-lafka-product-addon-admin.php:135
+msgid "Global Add-on Group"
+msgstr ""
+
+#: incl/addons/admin/class-lafka-product-addon-admin.php:114
+msgid "Add-on deleted successfully"
+msgstr ""
+
+#: incl/addons/admin/class-lafka-product-addon-admin.php:181
+msgid "Lafka Add-ons"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon-option.php:7
+msgid "Default Label"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon-panel.php:10
+msgid "Close all"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon-panel.php:10
+msgid "Expand all"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon-panel.php:28
+msgid "New add-on"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon-panel.php:33
+msgid "Global Addon Exclusion"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon-panel.php:34
+msgid "Check this to exclude this product from all Global Addons"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon-panel.php:40
+msgid "All addon fields require a name."
+msgstr ""
+
+#: incl/addons/admin/views/html-addon-panel.php:83
+msgid "Min / max characters"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon-panel.php:87
+msgid "Min / max"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon-panel.php:169
+msgid "Are you sure you want remove this add-on?"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon-panel.php:246
+msgid "Are you sure you want delete this option?"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon.php:10
+msgid "Remove"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon.php:11
+msgid "Click to toggle"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon.php:12
+msgid "Group"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon.php:14
+msgid "Checkboxes"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon.php:15
+msgid "Radio buttons"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon.php:16
+msgid "Textarea"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon.php:26
+#: incl/swatches/classes/class-admin.php:285
+#: incl/wpml/addons/class-wcml-lafka-product-addons.php:247
+#: shortcodes/partials/contact-form.php:6
+#: shortcodes/shortcodes_to_vc_mapping.php:1353
+#: shortcodes/shortcodes_to_vc_mapping.php:2206
+msgid "Name"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon.php:32
+msgid "Required fields?"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon.php:40
+#: incl/wpml/addons/class-wcml-lafka-product-addons.php:249
+msgid "Description"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon.php:52
+#: incl/swatches/classes/class-admin.php:336
+#: incl/swatches/variation-swatches.php:42
+#: incl/wpml/addons/class-wcml-lafka-product-addons.php:259
+msgid "Label"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon.php:53
+#: incl/metaboxes.php:941
+msgid "Price"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon.php:54
+msgid "Min / Max"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon.php:55
+msgid "Default Value"
+msgstr ""
+
+#: incl/addons/admin/views/html-addon.php:62
+msgid "New&nbsp;Option"
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin-add.php:9
+msgid "Add/Edit Lafka Global Add-on"
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin-add.php:15
+msgid "Global Add-on Reference"
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin-add.php:19
+msgid "Give this global add-on a reference/name to make it recognisable."
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin-add.php:24
+#: incl/addons/admin/views/html-global-admin.php:16
+msgid "Priority"
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin-add.php:28
+msgid "Give this global addon a priority - this will determine the order in which multiple groups of addons get displayed on the frontend. Per-product add-ons will always have priority 10."
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin-add.php:33
+msgid "Applied to..."
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin-add.php:36
+msgid "Choose some options&hellip;"
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin-add.php:37
+#: incl/addons/admin/views/html-global-admin.php:36
+msgid "All Products"
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin-add.php:38
+msgid "Product category notifications"
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin-add.php:43
+msgid "Category:"
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin-add.php:49
+msgid "Choose categories which should show these addons (or apply to all products)."
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin-add.php:54
+msgid "Add-ons"
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin-add.php:66
+msgid "Save Global Add-on"
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin.php:9
+msgid "Add Global Add-on"
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin.php:14
+msgid "Reference"
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin.php:15
+msgid "Number of Fields"
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin.php:17
+msgid "Applies to..."
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin.php:18
+msgid "Actions"
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin.php:46
+msgid "Edit"
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin.php:46
+msgid "Delete"
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin.php:54
+msgid "No global add-ons exists yet."
+msgstr ""
+
+#: incl/addons/admin/views/html-global-admin.php:54
+msgid "Add one?"
+msgstr ""
+
+#: incl/addons/includes/class-lafka-product-addon-display.php:47
+msgid "Options total:"
+msgstr ""
+
+#: incl/addons/includes/class-lafka-product-addon-display.php:48
+msgid "Sub total:"
+msgstr ""
+
+#: incl/addons/includes/class-lafka-product-addon-display.php:49
+msgid "characters remaining"
+msgstr ""
+
+#: incl/addons/includes/class-lafka-product-addon-display.php:261
+msgid "Select options"
+msgstr ""
+
+#: incl/addons/includes/fields/class-lafka-addon-field-textarea.php:19
+#: incl/addons/includes/fields/class-product-addon-field-list.php:15
+msgid "\"%s\" is a required field."
+msgstr ""
+
+#: incl/addons/includes/fields/class-lafka-addon-field-textarea.php:32
+msgid "The minimum allowed length for \"%s - %s\" is %s."
+msgstr ""
+
+#: incl/addons/includes/fields/class-lafka-addon-field-textarea.php:36
+msgid "The maximum allowed length for \"%s - %s\" is %s."
+msgstr ""
+
+#: incl/addons/includes/fields/class-lafka-addon-field-textarea.php:43
+msgid "The minimum allowed amount for \"%s - %s\" is %s."
+msgstr ""
+
+#: incl/addons/includes/fields/class-lafka-addon-field-textarea.php:49
+msgid "The maximum allowed amount for \"%s - %s\" is %s."
+msgstr ""
+
+#: incl/addons/includes/fields/class-lafka-addon-field-textarea.php:61
+msgid "Please enter a value greater than 0 for \"%s - %s\"."
+msgstr ""
+
+#: incl/addons/includes/fields/class-lafka-addon-field-textarea.php:66
+msgid "Only letters are allowed for \"%s - %s\"."
+msgstr ""
+
+#: incl/addons/includes/fields/class-lafka-addon-field-textarea.php:71
+msgid "Only digits are allowed for \"%s - %s\"."
+msgstr ""
+
+#: incl/addons/includes/fields/class-lafka-addon-field-textarea.php:76
+msgid "Only letters and digits are allowed for \"%s - %s\"."
+msgstr ""
+
+#: incl/addons/includes/fields/class-lafka-addon-field-textarea.php:81
+msgid "A valid email address is required for \"%s - %s\"."
+msgstr ""
+
+#: incl/addons/includes/groups/class-lafka-product-addon-groups.php:51
+msgid "Unable to retrieve data. Invalid global add ons group or product ID."
+msgstr ""
+
+#: incl/addons/includes/groups/class-lafka-product-addon-groups.php:83
+msgid "Unable to delete group. Invalid global add ons group ID."
+msgstr ""
+
+#: incl/addons/templates/addon-start.php:6
+msgid "Required field"
+msgstr ""
+
+#: incl/customizer/class-lafka-customizer.php:23
+msgid "Lafka Options"
+msgstr ""
+
+#: incl/customizer/class-lafka-customizer.php:38
+msgid "Social Share Links"
+msgstr ""
+
+#: incl/customizer/class-lafka-customizer.php:39
+msgid "Configure globally the social networks share links. They can be overridden for each post, page or portfolio on the edit page."
+msgstr ""
+
+#: incl/customizer/class-lafka-customizer.php:59
+msgid "Enable social share links on single post, page and portfolio."
+msgstr ""
+
+#: incl/customizer/class-lafka-customizer.php:81
+msgid "Enable social share links on single product pages."
+msgstr ""
+
+#: incl/metaboxes.php:28
+msgid "Page Layout Options"
+msgstr ""
+
+#: incl/metaboxes.php:41
+msgid "Page Layout Options is disabled for this page, because the page is set as Blog page from Settings->Reading."
+msgstr ""
+
+#: incl/metaboxes.php:47
+msgid "Page Layout Options is disabled for this page, because the page is set as Shop page."
+msgstr ""
+
+#: incl/metaboxes.php:98
+msgid "You can define layout specific options here."
+msgstr ""
+
+#: incl/metaboxes.php:101
+msgid "Choose Page Layout"
+msgstr ""
+
+#: incl/metaboxes.php:103
+#: incl/metaboxes.php:112
+#: incl/metaboxes.php:121
+#: incl/metaboxes.php:130
+#: incl/metaboxes.php:139
+#: incl/metaboxes.php:428
+#: shortcodes/shortcodes_to_vc_mapping.php:675
+msgid "Default"
+msgstr ""
+
+#: incl/metaboxes.php:105
+msgid "Full-Width"
+msgstr ""
+
+#: incl/metaboxes.php:107
+msgid "Boxed"
+msgstr ""
+
+#: incl/metaboxes.php:110
+msgid "Top Menu Bar"
+msgstr ""
+
+#: incl/metaboxes.php:114
+msgid "Show"
+msgstr ""
+
+#: incl/metaboxes.php:116
+msgid "Hide"
+msgstr ""
+
+#: incl/metaboxes.php:119
+msgid "Footer size"
+msgstr ""
+
+#: incl/metaboxes.php:123
+#: incl/metaboxes.php:132
+#: incl/metaboxes.php:141
+#: shortcodes/shortcodes_to_vc_mapping.php:380
+msgid "Standard"
+msgstr ""
+
+#: incl/metaboxes.php:125
+#: incl/metaboxes.php:143
+msgid "Fullwidth"
+msgstr ""
+
+#: incl/metaboxes.php:128
+msgid "Footer style"
+msgstr ""
+
+#: incl/metaboxes.php:134
+msgid "Reveal"
+msgstr ""
+
+#: incl/metaboxes.php:137
+msgid "Header size"
+msgstr ""
+
+#: incl/metaboxes.php:152
+#: incl/woocommerce-metaboxes.php:103
+#: incl/woocommerce-metaboxes.php:226
+msgid "Header Style"
+msgstr ""
+
+#: incl/metaboxes.php:161
+#: incl/woocommerce-metaboxes.php:105
+#: incl/woocommerce-metaboxes.php:137
+#: shortcodes/shortcodes_to_vc_mapping.php:1383
+msgid "Normal"
+msgstr ""
+
+#: incl/metaboxes.php:165
+#: incl/woocommerce-metaboxes.php:106
+#: incl/woocommerce-metaboxes.php:138
+msgid "Transparent - Light Scheme"
+msgstr ""
+
+#: incl/metaboxes.php:166
+#: incl/woocommerce-metaboxes.php:107
+#: incl/woocommerce-metaboxes.php:139
+msgid "Transparent - Dark Scheme"
+msgstr ""
+
+#: incl/metaboxes.php:201
+msgid "Manage Images"
+msgstr ""
+
+#: incl/metaboxes.php:201
+msgid "Select Title Background Image"
+msgstr ""
+
+#: incl/metaboxes.php:201
+msgid "Select"
+msgstr ""
+
+#: incl/metaboxes.php:204
+msgid "Page Subtitle"
+msgstr ""
+
+#: incl/metaboxes.php:206
+#: incl/woocommerce-metaboxes.php:118
+#: incl/woocommerce-metaboxes.php:254
+msgid "Title alignment"
+msgstr ""
+
+#: incl/metaboxes.php:307
+msgid "Page Structure Options"
+msgstr ""
+
+#: incl/metaboxes.php:320
+msgid "Page Structure Options are disabled for this page, because the page is set as Blog page from Settings->Reading."
+msgstr ""
+
+#: incl/metaboxes.php:325
+msgid "Page Structure Options are disabled for this page, because the page is set as Shop page."
+msgstr ""
+
+#: incl/metaboxes.php:389
+msgid "You can configure the page structure, using this options."
+msgstr ""
+
+#: incl/metaboxes.php:393
+msgid "Choose Top Menu"
+msgstr ""
+
+#: incl/metaboxes.php:402
+msgid "Show Title"
+msgstr ""
+
+#: incl/metaboxes.php:409
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: incl/metaboxes.php:418
+msgid "Featured Image in Single Post View"
+msgstr ""
+
+#: incl/metaboxes.php:426
+msgid "Show Social Share Links"
+msgstr ""
+
+#: incl/metaboxes.php:435
+msgid "Main Sidebar"
+msgstr ""
+
+#: incl/metaboxes.php:448
+#: incl/metaboxes.php:466
+#: incl/metaboxes.php:486
+#: incl/metaboxes.php:516
+msgid "default"
+msgstr ""
+
+#: incl/metaboxes.php:464
+msgid "Main Sidebar Position"
+msgstr ""
+
+#: incl/metaboxes.php:467
+#: incl/woocommerce-metaboxes.php:120
+#: incl/woocommerce-metaboxes.php:143
+#: shortcodes/shortcodes_to_vc_mapping.php:103
+#: shortcodes/shortcodes_to_vc_mapping.php:184
+#: shortcodes/shortcodes_to_vc_mapping.php:1128
+#: shortcodes/shortcodes_to_vc_mapping.php:2100
+msgid "Left"
+msgstr ""
+
+#: incl/metaboxes.php:468
+#: shortcodes/shortcodes_to_vc_mapping.php:105
+#: shortcodes/shortcodes_to_vc_mapping.php:186
+#: shortcodes/shortcodes_to_vc_mapping.php:1129
+#: shortcodes/shortcodes_to_vc_mapping.php:2101
+msgid "Right"
+msgstr ""
+
+#: incl/metaboxes.php:472
+msgid "Off Canvas Sidebar"
+msgstr ""
+
+#: incl/metaboxes.php:502
+msgid "Footer Sidebar"
+msgstr ""
+
+#: incl/metaboxes.php:607
+#: incl/metaboxes.php:611
+#: incl/metaboxes.php:615
+#: incl/metaboxes.php:619
+msgid "Revolution Slider"
+msgstr ""
+
+#: incl/metaboxes.php:632
+msgid "Revolution slider is disabled for this page, because the page is set as Blog page from Settings->Reading."
+msgstr ""
+
+#: incl/metaboxes.php:638
+msgid "Revolution slider is disabled for this page, because the page is set as Shop page."
+msgstr ""
+
+#: incl/metaboxes.php:660
+msgid "You can choose a Revolution slider to be attached. It will show up on the top of this page/post."
+msgstr ""
+
+#: incl/metaboxes.php:663
+msgid "Select slider"
+msgstr ""
+
+#: incl/metaboxes.php:671
+#: shortcodes/shortcodes_to_vc_mapping.php:734
+#: shortcodes/shortcodes_to_vc_mapping.php:911
+#: shortcodes/shortcodes_to_vc_mapping.php:1149
+#: shortcodes/shortcodes_to_vc_mapping.php:1271
+msgid "none"
+msgstr ""
+
+#: incl/metaboxes.php:691
+msgid "Place before header"
+msgstr ""
+
+#: incl/metaboxes.php:753
+msgid "Video Background"
+msgstr ""
+
+#: incl/metaboxes.php:766
+msgid "Video Background options are disabled for this page, because the page is set as Blog page from Settings->Reading."
+msgstr ""
+
+#: incl/metaboxes.php:772
+msgid "Video Background options are disabled for this page, because the page is set as Shop page."
+msgstr ""
+
+#: incl/metaboxes.php:808
+msgid "Define the video background options for this page/post."
+msgstr ""
+
+#: incl/metaboxes.php:811
+#: shortcodes/shortcodes_to_vc_mapping.php:2054
+msgid "YouTube video URL"
+msgstr ""
+
+#: incl/metaboxes.php:815
+msgid "Start time in seconds"
+msgstr ""
+
+#: incl/metaboxes.php:819
+msgid "End time in seconds"
+msgstr ""
+
+#: incl/metaboxes.php:824
+#: shortcodes/shortcodes_to_vc_mapping.php:208
+msgid "Loop"
+msgstr ""
+
+#: incl/metaboxes.php:828
+msgid "Mute"
+msgstr ""
+
+#: incl/metaboxes.php:897
+msgid "Menu Entry Fields"
+msgstr ""
+
+#: incl/metaboxes.php:912
+msgid "The currency for all price fields will be the one set up in WooCommerce"
+msgstr ""
+
+#: incl/metaboxes.php:915
+msgid "The currency for all price fields will be the one set up in Theme Options -> Restaurant Menu"
+msgstr ""
+
+#: incl/metaboxes.php:919
+msgid "Item Price"
+msgstr ""
+
+#: incl/metaboxes.php:924
+msgid "Item Weight"
+msgstr ""
+
+#: incl/metaboxes.php:928
+msgid "Units (g)"
+msgstr ""
+
+#: incl/metaboxes.php:932
+msgid "Fill up to three option->price pairs. E.g. Small -> +5, Big -> 10"
+msgstr ""
+
+#: incl/metaboxes.php:937
+msgid "Option"
+msgstr ""
+
+#: incl/metaboxes.php:950
+msgid "Ingredients"
+msgstr ""
+
+#: incl/metaboxes.php:955
+#: incl/nutrition/admin/views/html-nutrition-panel.php:18
+#: incl/nutrition/templates/nutrition-info.php:23
+msgid "Allergens"
+msgstr ""
+
+#: incl/metaboxes.php:960
+msgid "Nutrition Information:"
+msgstr ""
+
+#: incl/metaboxes.php:971
+msgid "Menu Entry External Links:"
+msgstr ""
+
+#: incl/metaboxes.php:973
+msgid "First Button Title"
+msgstr ""
+
+#: incl/metaboxes.php:978
+msgid "First Button Url"
+msgstr ""
+
+#: incl/metaboxes.php:982
+msgid "Short Description"
+msgstr ""
+
+#: incl/metaboxes.php:1067
+msgid "Featured Image"
+msgstr ""
+
+#: incl/metaboxes.php:1108
+msgid "Remove featured image"
+msgstr ""
+
+#: incl/metaboxes.php:1111
+msgid "Select Featured Image"
+msgstr ""
+
+#: incl/metaboxes.php:1111
+msgid "Set Featured Image"
+msgstr ""
+
+#: incl/metaboxes.php:1111
+msgid "Set featured image"
+msgstr ""
+
+#: incl/metaboxes.php:1161
+msgid "Menu Entry Options"
+msgstr ""
+
+#: incl/metaboxes.php:1188
+msgid "Custom Content:"
+msgstr ""
+
+#: incl/metaboxes.php:1193
+msgid "Don't use the menu entry gallery and all fields. Use only the content."
+msgstr ""
+
+#: incl/metaboxes.php:1195
+msgid "Menu entry gallery will appear as:"
+msgstr ""
+
+#: incl/metaboxes.php:1198
+msgid "Flex Slider"
+msgstr ""
+
+#: incl/metaboxes.php:1200
+msgid "Cloud Zoom"
+msgstr ""
+
+#: incl/metaboxes.php:1202
+msgid "Image List"
+msgstr ""
+
+#: incl/metaboxes.php:1264
+msgid "Product Video"
+msgstr ""
+
+#: incl/metaboxes.php:1290
+msgid "Product Video to be displayed on the product page (YouTube, Vimeo, Self-hosted)."
+msgstr ""
+
+#: incl/metaboxes.php:1293
+msgid "Video URL"
+msgstr ""
+
+#: incl/metaboxes.php:1346
+msgid "Product Gallery Type"
+msgstr ""
+
+#: incl/metaboxes.php:1371
+msgid "Use Theme Options Setting"
+msgstr ""
+
+#: incl/metaboxes.php:1372
+msgid "WooCommerce Default Gallery"
+msgstr ""
+
+#: incl/metaboxes.php:1373
+msgid "Image List Gallery"
+msgstr ""
+
+#: incl/metaboxes.php:1374
+msgid "Mosaic Images Gallery"
+msgstr ""
+
+#: incl/metaboxes.php:1376
+msgid "Choose between default WooCommerce gallery and image list gallery."
+msgstr ""
+
+#: incl/nutrition/admin/class-lafka-nutrition-admin.php:28
+msgid "Lafka Nutrition Facts"
+msgstr ""
+
+#: incl/nutrition/admin/views/html-nutrition-panel.php:19
+msgid "Enter the list of allergens as they will appear in the frontend."
+msgstr ""
+
+#: incl/nutrition/admin/views/html-nutrition-panel.php:20
+msgid "Milk, Eggs, Peanuts"
+msgstr ""
+
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:12
+msgid "Energy (Calories)"
+msgstr ""
+
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:13
+msgid "Energy"
+msgstr ""
+
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:14
+msgid "Cal"
+msgstr ""
+
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:19
+msgid "Protein (Grams)"
+msgstr ""
+
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:20
+msgid "Protein"
+msgstr ""
+
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:21
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:28
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:35
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:42
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:49
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:56
+msgid "g"
+msgstr ""
+
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:26
+msgid "Fat (Grams)"
+msgstr ""
+
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:27
+msgid "Fat"
+msgstr ""
+
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:33
+msgid "Saturated Fat (Grams)"
+msgstr ""
+
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:34
+msgid "Sat Fat"
+msgstr ""
+
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:40
+msgid "Carbohydrates (Grams)"
+msgstr ""
+
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:41
+msgid "Carbs"
+msgstr ""
+
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:47
+msgid "Sugars (Grams)"
+msgstr ""
+
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:48
+msgid "Sugars"
+msgstr ""
+
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:54
+msgid "Sodium (Grams)"
+msgstr ""
+
+#: incl/nutrition/includes/class-lafka-nutrition-config.php:55
+msgid "Sodium"
+msgstr ""
+
+#: incl/nutrition/templates/nutrition-info.php:14
+#: incl/nutrition/templates/nutrition-info.php:19
+msgid "DI"
+msgstr ""
+
+#: incl/nutrition/templates/nutrition-info.php:19
+msgid "Recommended Daily Intake based on 2000 calories diet"
+msgstr ""
+
+#: incl/nutrition/templates/weight-info.php:11
+msgid "Serving size"
+msgstr ""
+
+#: incl/order-hours/Lafka_Order_Hours.php:90
+msgid "Open"
+msgstr ""
+
+#: incl/order-hours/Lafka_Order_Hours.php:93
+msgid "Closed"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:40
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:41
+msgid "Lafka Order Hours"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:52
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:244
+msgid "Status"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:61
+msgid "Time Zone"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:73
+msgid "Message"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:80
+msgid "Closed Store Message"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:91
+msgid "Disable Add to Cart"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:102
+#: shortcodes/shortcodes_to_vc_mapping.php:1365
+msgid "Countdown"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:113
+msgid "Force Override Store Schedule"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:120
+msgid "Turn-on Force Override"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:131
+msgid "Ordering Status"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:142
+msgid "Days Schedule"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:149
+msgid "Open Hours Periods"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:160
+msgid "Holidays Schedule"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:167
+msgid "Holidays Calendar"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:178
+msgid "Cache Management"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:185
+msgid "Enable Shopping Cart Cache Clearing"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:208
+msgid "Settings Saved"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:223
+msgid "Save Settings"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:244
+msgid "Current time"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:259
+msgid "Enter message that will appear below \"Add to Cart\" and instead of \"Checkout\" and \"Place Order\" links."
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:272
+msgid "Disable add to cart when closed for orders."
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:285
+msgid "Countdown the time to the next opening. Shown next to the closed store message."
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:286
+msgid "NOTE: Countdown will not be shown if shop status is forced. Countdown will not take into account the vacation schedule. "
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:299
+msgid "Override current working time schedule and change the store status."
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:310
+msgid "Disabled"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:313
+msgid "Enabled"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:322
+msgid "Drag over the table to create order hours periods. Use X and Copy icons to delete or duplicate periods."
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:342
+msgid "Click on Text Box to Open Calendar and Select Your Holidays"
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:355
+msgid "Shopping Cart cache will be cleared on each request."
+msgstr ""
+
+#: incl/order-hours/settings/Lafka_Order_Hours_Admin.php:356
+msgid "This will ensure that the presence of \"Checkout\" button in the cart is in sync with store status. Cart content stays intact."
+msgstr ""
+
+#: incl/swatches/classes/class-admin.php:87
+msgid "Choose an image"
+msgstr ""
+
+#: incl/swatches/classes/class-admin.php:88
+msgid "Use image"
+msgstr ""
+
+#: incl/swatches/classes/class-admin.php:152
+#: incl/swatches/classes/class-admin.php:327
+#: incl/woocommerce-metaboxes.php:27
+#: incl/woocommerce-metaboxes.php:163
+msgid "Upload/Add image"
+msgstr ""
+
+#: incl/swatches/classes/class-admin.php:153
+#: incl/swatches/classes/class-admin.php:328
+#: incl/woocommerce-metaboxes.php:29
+#: incl/woocommerce-metaboxes.php:165
+msgid "Remove image"
+msgstr ""
+
+#: incl/swatches/classes/class-admin.php:204
+msgid "Select terms"
+msgstr ""
+
+#: incl/swatches/classes/class-admin.php:215
+msgid "Select all"
+msgstr ""
+
+#: incl/swatches/classes/class-admin.php:216
+msgid "Select none"
+msgstr ""
+
+#: incl/swatches/classes/class-admin.php:217
+msgid "Add new"
+msgstr ""
+
+#: incl/swatches/classes/class-admin.php:281
+msgid "Add new term"
+msgstr ""
+
+#: incl/swatches/classes/class-admin.php:291
+#: shortcodes/shortcodes_to_vc_mapping.php:2208
+msgid "Slug"
+msgstr ""
+
+#: incl/swatches/classes/class-admin.php:303
+#: incl/wpml/addons/class-wcml-lafka-product-addons.php:582
+msgid "Cancel"
+msgstr ""
+
+#: incl/swatches/classes/class-admin.php:304
+#: lafka-plugin.php:277
+msgid "Add New"
+msgstr ""
+
+#: incl/swatches/classes/class-admin.php:314
+#: incl/swatches/variation-swatches.php:40
+#: shortcodes/shortcodes_to_vc_mapping.php:1392
+msgid "Color"
+msgstr ""
+
+#: incl/swatches/classes/class-admin.php:321
+#: incl/swatches/variation-swatches.php:41
+#: shortcodes/shortcodes_to_vc_mapping.php:690
+#: shortcodes/shortcodes_to_vc_mapping.php:984
+#: shortcodes/shortcodes_to_vc_mapping.php:1107
+msgid "Image"
+msgstr ""
+
+#: incl/swatches/classes/class-admin.php:363
+msgid "Wrong request"
+msgstr ""
+
+#: incl/swatches/classes/class-admin.php:367
+msgid "Not enough data"
+msgstr ""
+
+#: incl/swatches/classes/class-admin.php:371
+msgid "Taxonomy is not exists"
+msgstr ""
+
+#: incl/swatches/classes/class-admin.php:375
+msgid "This term is exists"
+msgstr ""
+
+#: incl/swatches/classes/class-admin.php:389
+msgid "Added successfully"
+msgstr ""
+
+#: incl/woocommerce-functions.php:36
+msgid "Enable this option to show the variation in catalog views. <br> NOTE: This will have following effects on the default WooCommerce representation of products, in order to have more fast food look:<br>- Product price will be hidden in catalogs<br>- \"From - To\" price in product view will be hidden if there is default variation<br>- Variation weight entries won't be shown in the \"Additional Information\" tab on Product view"
+msgstr ""
+
+#: incl/woocommerce-functions.php:37
+msgid "Show in Catalog?"
+msgstr ""
+
+#: incl/woocommerce-functions.php:56
+msgid "Lafka variations in catalog"
+msgstr ""
+
+#: incl/woocommerce-functions.php:57
+msgid "Show all"
+msgstr ""
+
+#: incl/woocommerce-functions.php:58
+msgid "Hide all"
+msgstr ""
+
+#: incl/woocommerce-metaboxes.php:21
+#: incl/woocommerce-metaboxes.php:154
+msgid "Title background image"
+msgstr ""
+
+#: incl/woocommerce-metaboxes.php:112
+#: incl/woocommerce-metaboxes.php:240
+#: shortcodes/shortcodes_to_vc_mapping.php:884
+#: shortcodes/shortcodes_to_vc_mapping.php:1030
+msgid "Subtitle"
+msgstr ""
+
+#: incl/woocommerce-metaboxes.php:121
+#: incl/woocommerce-metaboxes.php:144
+#: shortcodes/shortcodes_to_vc_mapping.php:1127
+#: shortcodes/shortcodes_to_vc_mapping.php:2102
+msgid "Center"
+msgstr ""
+
+#: incl/wpml/addons/class-wcml-lafka-product-addons.php:224
+msgid "You can translate strings related to global lafka add-ons on the %sWPML String Translation page%s. Use the search on the top of that page to find the strings."
+msgstr ""
+
+#: incl/wpml/addons/class-wcml-lafka-product-addons.php:244
+msgid "Product Lafka Add-ons Group \"%s\""
+msgstr ""
+
+#: incl/wpml/addons/class-wcml-lafka-product-addons.php:256
+msgid "Options"
+msgstr ""
+
+#: incl/wpml/addons/class-wcml-lafka-product-addons.php:341
+msgid "You can translate the Group Name, Group Description and every Option Label of your product add-on on the %sWooCommerce product translation page%s"
+msgstr ""
+
+#: incl/wpml/addons/class-wcml-lafka-product-addons.php:579
+#: incl/wpml/addons/class-wcml-lafka-product-addons.php:602
+msgid "Multi-currency settings"
+msgstr ""
+
+#: incl/wpml/addons/class-wcml-lafka-product-addons.php:580
+msgid "Here you can set different prices for the %s in multiple currencies:"
+msgstr ""
+
+#: incl/wpml/addons/class-wcml-lafka-product-addons.php:581
+msgid "Apply"
+msgstr ""
+
+#: incl/wpml/addons/class-wcml-lafka-product-addons.php:603
+msgid "Calculate prices in other currencies automatically"
+msgstr ""
+
+#: incl/wpml/addons/class-wcml-lafka-product-addons.php:604
+msgid "Set prices in other currencies manually"
+msgstr ""
+
+#: lafka-plugin.php:217
+#: lafka-plugin.php:228
+#: shortcodes/shortcodes_to_vc_mapping.php:776
+msgid "Restaurant Menu"
+msgstr ""
+
+#: lafka-plugin.php:218
+msgid "Menu Entry"
+msgstr ""
+
+#: lafka-plugin.php:219
+#: lafka-plugin.php:220
+msgid "Add New Menu Entry"
+msgstr ""
+
+#: lafka-plugin.php:221
+msgid "Edit Restaurant Menu Entry"
+msgstr ""
+
+#: lafka-plugin.php:222
+msgid "New Menu Entry"
+msgstr ""
+
+#: lafka-plugin.php:223
+msgid "View Menu Entry"
+msgstr ""
+
+#: lafka-plugin.php:224
+msgid "Search Menu Entries"
+msgstr ""
+
+#: lafka-plugin.php:225
+msgid "No Menu Entries Found"
+msgstr ""
+
+#: lafka-plugin.php:226
+msgid "No Menu Entries found in Trash"
+msgstr ""
+
+#: lafka-plugin.php:227
+msgid "Parent Menu Entry:"
+msgstr ""
+
+#: lafka-plugin.php:249
+msgid "restaurant-menu"
+msgstr ""
+
+#: lafka-plugin.php:268
+#: lafka-plugin.php:282
+msgid "Menu Categories"
+msgstr ""
+
+#: lafka-plugin.php:269
+msgid "Menu Category"
+msgstr ""
+
+#: lafka-plugin.php:270
+msgid "Search Menu Categories"
+msgstr ""
+
+#: lafka-plugin.php:271
+msgid "Popular Menu Categories"
+msgstr ""
+
+#: lafka-plugin.php:272
+msgid "All Menu Categories"
+msgstr ""
+
+#: lafka-plugin.php:273
+msgid "Parent Menu Category"
+msgstr ""
+
+#: lafka-plugin.php:274
+msgid "Parent Menu Category:"
+msgstr ""
+
+#: lafka-plugin.php:275
+msgid "Edit Menu Category"
+msgstr ""
+
+#: lafka-plugin.php:276
+msgid "Update Menu Category"
+msgstr ""
+
+#: lafka-plugin.php:278
+msgid "New Menu Category"
+msgstr ""
+
+#: lafka-plugin.php:279
+msgid "Separate Menu Categories with commas"
+msgstr ""
+
+#: lafka-plugin.php:280
+msgid "Add or remove Menu Category"
+msgstr ""
+
+#: lafka-plugin.php:281
+msgid "Choose from the most used Menu Categories"
+msgstr ""
+
+#: lafka-plugin.php:324
+msgid "Theme Options"
+msgstr ""
+
+#: lafka-plugin.php:388
+msgid "Confirm importing settings from"
+msgstr ""
+
+#: lafka-plugin.php:389
+msgid ". Current Theme Options will be overwritten. Continue?"
+msgstr ""
+
+#: lafka-plugin.php:390
+msgid "Options successfully imported. Reloading."
+msgstr ""
+
+#: lafka-plugin.php:391
+msgid "There was a problem with the upload. Error"
+msgstr ""
+
+#: lafka-plugin.php:771
+msgid "Share"
+msgstr ""
+
+#: lafka-plugin.php:775
+msgid "Share on Facebook"
+msgstr ""
+
+#: lafka-plugin.php:781
+msgid "Share on Twitter"
+msgstr ""
+
+#: lafka-plugin.php:787
+msgid "Share on Pinterest"
+msgstr ""
+
+#: lafka-plugin.php:794
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: lafka-plugin.php:800
+msgid "Share on VK"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:7
+#: shortcodes/partials/contact-form.php:125
+#: shortcodes/shortcodes_to_vc_mapping.php:1354
+msgid "E-Mail Address"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:8
+#: shortcodes/partials/contact-form.php:131
+#: shortcodes/shortcodes_to_vc_mapping.php:1355
+msgid "Phone"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:9
+#: shortcodes/partials/contact-form.php:137
+#: shortcodes/shortcodes_to_vc_mapping.php:1356
+msgid "Street Address"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:10
+#: shortcodes/partials/contact-form.php:143
+#: shortcodes/shortcodes_to_vc_mapping.php:1357
+msgid "Subject"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:13
+msgid "Please enter %s."
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:14
+msgid "Please enter a message."
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:15
+msgid "Calculation result was not correct."
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:16
+msgid "Email Address Invalid."
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:17
+msgid "Message was not sent. Try Again."
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:18
+msgid "Thanks! Your message has been sent."
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:100
+msgid "Someone sent a message from %s"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:111
+msgid "Send us a message"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:118
+msgid "Your Name"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:148
+msgid "Message Text"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:155
+msgid "Prove you're a human"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:163
+msgid "Send message"
+msgstr ""
+
+#: shortcodes/partials/vendors_list.php:13
+msgid "By date"
+msgstr ""
+
+#: shortcodes/partials/vendors_list.php:16
+msgid "By Alphabetically"
+msgstr ""
+
+#: shortcodes/partials/vendors_list.php:19
+msgid "By Category"
+msgstr ""
+
+#: shortcodes/partials/vendors_list.php:33
+msgid "Sort"
+msgstr ""
+
+#: shortcodes/partials/vendors_list.php:60
+msgid "No vendor found!"
+msgstr ""
+
+#: shortcodes/shortcodes.php:304
+msgid "Next &raquo;"
+msgstr ""
+
+#: shortcodes/shortcodes.php:305
+msgid "&laquo; Back"
+msgstr ""
+
+#: shortcodes/shortcodes.php:485
+msgid "show all"
+msgstr ""
+
+#: shortcodes/shortcodes.php:521
+#: shortcodes/shortcodes.php:533
+msgid "View more"
+msgstr ""
+
+#: shortcodes/shortcodes.php:529
+msgid "No image available"
+msgstr ""
+
+#: shortcodes/shortcodes.php:1133
+msgid "Our Location"
+msgstr ""
+
+#: shortcodes/shortcodes.php:1145
+msgid "Get Directions"
+msgstr ""
+
+#: shortcodes/shortcodes.php:1146
+msgid "Fill in your address or zipcode to calculate the route"
+msgstr ""
+
+#: shortcodes/shortcodes.php:1149
+msgid "Address or postcode"
+msgstr ""
+
+#: shortcodes/shortcodes.php:1150
+msgid "Calculate route"
+msgstr ""
+
+#: shortcodes/shortcodes.php:1759
+#: shortcodes/shortcodes_to_vc_mapping.php:1673
+msgid "Recently viewed products"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2098
+msgid "Placeholder"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:20
+msgid "Center-Center"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:21
+msgid "Top-Left"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:22
+msgid "Top-Center"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:23
+msgid "Top-Right"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:24
+msgid "Center-Left"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:25
+msgid "Center-Right"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:26
+msgid "Bottom-Left"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:27
+msgid "Bottom-Center"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:28
+msgid "Bottom-Right"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:46
+msgid "Text before counter"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:49
+msgid "Enter text to be shown before counter."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:53
+msgid "Counting number"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:56
+msgid "Enter the number to count to."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:61
+msgid "Text after counter"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:64
+msgid "Enter text to be shown after counter."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:69
+msgid "Add icon?"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:70
+msgid "Add icon to the counter."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:74
+#: shortcodes/shortcodes_to_vc_mapping.php:995
+#: shortcodes/shortcodes_to_vc_mapping.php:1118
+msgid "Icon color"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:77
+#: shortcodes/shortcodes_to_vc_mapping.php:997
+#: shortcodes/shortcodes_to_vc_mapping.php:1120
+msgid "Select icon color."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:96
+msgid "Counter style"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:97
+msgid "Select counter style."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:104
+#: shortcodes/shortcodes_to_vc_mapping.php:185
+msgid "Centered"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:108
+msgid "Counter alignment"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:109
+msgid "Select counter alignment style."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:113
+msgid "Text color"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:116
+msgid "Choose color for the counter text."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:124
+msgid "Counter"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:127
+msgid "Configure counter"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:128
+#: shortcodes/shortcodes_to_vc_mapping.php:140
+#: shortcodes/shortcodes_to_vc_mapping.php:232
+#: shortcodes/shortcodes_to_vc_mapping.php:373
+#: shortcodes/shortcodes_to_vc_mapping.php:423
+#: shortcodes/shortcodes_to_vc_mapping.php:511
+#: shortcodes/shortcodes_to_vc_mapping.php:758
+#: shortcodes/shortcodes_to_vc_mapping.php:780
+#: shortcodes/shortcodes_to_vc_mapping.php:871
+#: shortcodes/shortcodes_to_vc_mapping.php:1017
+#: shortcodes/shortcodes_to_vc_mapping.php:1176
+#: shortcodes/shortcodes_to_vc_mapping.php:1215
+#: shortcodes/shortcodes_to_vc_mapping.php:1324
+#: shortcodes/shortcodes_to_vc_mapping.php:1369
+#: shortcodes/shortcodes_to_vc_mapping.php:1428
+#: shortcodes/shortcodes_to_vc_mapping.php:1467
+#: shortcodes/shortcodes_to_vc_mapping.php:1506
+#: shortcodes/shortcodes_to_vc_mapping.php:1545
+#: shortcodes/shortcodes_to_vc_mapping.php:1584
+#: shortcodes/shortcodes_to_vc_mapping.php:1609
+#: shortcodes/shortcodes_to_vc_mapping.php:1667
+#: shortcodes/shortcodes_to_vc_mapping.php:1713
+#: shortcodes/shortcodes_to_vc_mapping.php:1773
+#: shortcodes/shortcodes_to_vc_mapping.php:1961
+msgid "Lafka Shortcodes"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:136
+msgid "Typed"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:139
+msgid "Animated typing"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:144
+msgid "Text before typing rotator"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:147
+msgid "Enter text to be shown before typing rotator."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:151
+msgid "Rotating strings"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:154
+msgid "Enter strings to be rotated, separated by comma, (e.g. One,Two,Tree). Please only use letters and numbers. No special characters. If it’s necessary to use special characters, please use HTML Entities instead (e.g. “&amp;amp;” instead of “&”)"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:159
+msgid "Text after typing rotator"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:162
+msgid "Enter text to be shown after typing rotator."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:177
+msgid "Typed style"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:178
+msgid "Select style."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:189
+#: shortcodes/shortcodes_to_vc_mapping.php:515
+#: shortcodes/shortcodes_to_vc_mapping.php:1124
+msgid "Alignment"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:190
+msgid "Select alignment style."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:194
+msgid "Static text color"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:197
+msgid "Choose color for the static text."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:201
+msgid "Typed text color"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:204
+msgid "Choose color for the typed text."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:210
+msgid "Start from beginning after the last string."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:215
+#: shortcodes/shortcodes_to_vc_mapping.php:339
+#: shortcodes/shortcodes_to_vc_mapping.php:498
+#: shortcodes/shortcodes_to_vc_mapping.php:744
+#: shortcodes/shortcodes_to_vc_mapping.php:859
+msgid "CSS box"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:217
+#: shortcodes/shortcodes_to_vc_mapping.php:341
+#: shortcodes/shortcodes_to_vc_mapping.php:500
+#: shortcodes/shortcodes_to_vc_mapping.php:746
+#: shortcodes/shortcodes_to_vc_mapping.php:861
+#: shortcodes/shortcodes_to_vc_mapping.php:2104
+#: shortcodes/shortcodes_to_vc_mapping.php:2111
+#: shortcodes/shortcodes_to_vc_mapping.php:2118
+msgid "Design Options"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:224
+msgid "Content Slider"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:233
+msgid "Slide any content"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:238
+msgid "Widget title"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:239
+msgid "Enter text used as widget title (Note: located above content element)."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:250
+msgid "None"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:264
+#: shortcodes/shortcodes_to_vc_mapping.php:1810
+msgid "Autoplay"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:265
+msgid "Select auto rotate for pageable in seconds (Note: disabled by default)."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:269
+msgid "Full-Height slider"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:271
+msgid "Display slider in full height"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:275
+msgid "Prev / Next navigation"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:277
+msgid "Enable Prev / Next navigation"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:284
+#: shortcodes/shortcodes_to_vc_mapping.php:724
+#: shortcodes/shortcodes_to_vc_mapping.php:788
+msgid "Light"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:285
+#: shortcodes/shortcodes_to_vc_mapping.php:725
+#: shortcodes/shortcodes_to_vc_mapping.php:787
+msgid "Dark"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:288
+msgid "Navigation Color"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:289
+msgid "Choose light or dark navigation, depending on the background."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:293
+msgid "Pause On Hover"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:295
+msgid "Should the slider pause on hover"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:300
+msgid "Pagination"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:302
+msgid "Enable pagination"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:308
+msgid "Bullets"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:309
+msgid "Numbers"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:312
+msgid "Pagination Type"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:313
+msgid "Select pagination type."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:323
+#: shortcodes/shortcodes_to_vc_mapping.php:738
+#: shortcodes/shortcodes_to_vc_mapping.php:915
+#: shortcodes/shortcodes_to_vc_mapping.php:1153
+#: shortcodes/shortcodes_to_vc_mapping.php:1275
+msgid "Fade"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:324
+msgid "Slide"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:325
+msgid "Slide-Flip"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:328
+msgid "Transition"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:329
+msgid "Select transition effect."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:333
+msgid "Extra class name"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:335
+msgid "If you wish to style particular content element differently, then use this field to add a class name and then lafka to it in your css file."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:335
+msgid "NOTE: If video backgrounds are used in slides content, the loop slides option would be automatically disabled for compatibility reasons."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:359
+#: shortcodes/shortcodes_to_vc_mapping.php:360
+msgid "Section"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:369
+msgid "Blog Posts"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:372
+msgid "Output Blog posts with customizable Blog style"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:377
+msgid "Blog style"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:381
+msgid "Masonry Tiles"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:382
+msgid "Mozaic"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:384
+msgid "Choose how the posts will appear."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:388
+#: shortcodes/shortcodes_to_vc_mapping.php:486
+msgid "Sorting direction"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:391
+#: shortcodes/shortcodes_to_vc_mapping.php:489
+msgid "WordPress Default"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:392
+#: shortcodes/shortcodes_to_vc_mapping.php:490
+#: shortcodes/shortcodes_to_vc_mapping.php:1418
+#: shortcodes/shortcodes_to_vc_mapping.php:1981
+msgid "Ascending"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:393
+#: shortcodes/shortcodes_to_vc_mapping.php:491
+#: shortcodes/shortcodes_to_vc_mapping.php:1417
+#: shortcodes/shortcodes_to_vc_mapping.php:1982
+msgid "Descending"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:395
+#: shortcodes/shortcodes_to_vc_mapping.php:493
+msgid "Choose the date sorting direction."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:399
+msgid "Posts per page"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:402
+msgid "Enter the number of posts displayed per page. Leave blank for default."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:406
+#: shortcodes/shortcodes_to_vc_mapping.php:479
+#: shortcodes/shortcodes_to_vc_mapping.php:852
+msgid "Offset"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:409
+#: shortcodes/shortcodes_to_vc_mapping.php:482
+msgid "Set number of posts to be skipped."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:419
+msgid "Latest Posts"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:422
+msgid "Show Latest Posts"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:427
+#: shortcodes/shortcodes_to_vc_mapping.php:1680
+msgid "Layout"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:429
+#: shortcodes/shortcodes_to_vc_mapping.php:1682
+msgid "Grid"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:430
+#: shortcodes/shortcodes_to_vc_mapping.php:1683
+msgid "Carousel"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:437
+#: shortcodes/shortcodes_to_vc_mapping.php:1440
+#: shortcodes/shortcodes_to_vc_mapping.php:1479
+#: shortcodes/shortcodes_to_vc_mapping.php:1518
+#: shortcodes/shortcodes_to_vc_mapping.php:1557
+#: shortcodes/shortcodes_to_vc_mapping.php:1596
+#: shortcodes/shortcodes_to_vc_mapping.php:1622
+#: shortcodes/shortcodes_to_vc_mapping.php:1691
+#: shortcodes/shortcodes_to_vc_mapping.php:1738
+msgid "Columns"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:440
+msgid "Number of columns"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:449
+#: shortcodes/shortcodes_to_vc_mapping.php:794
+msgid "Filter By Category"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:466
+msgid "Enter category names."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:471
+msgid "Number of posts"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:474
+msgid "Enter the number of posts to be displayed."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:507
+msgid "Banner"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:510
+msgid "Output configurable banner"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:518
+msgid "Choose alginment style for the banner."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:522
+msgid "Icon library"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:524
+#: shortcodes/shortcodes_to_vc_mapping.php:923
+#: shortcodes/shortcodes_to_vc_mapping.php:1046
+msgid "Font Awesome"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:525
+msgid "Open Iconic"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:526
+msgid "Typicons"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:527
+msgid "Entypo"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:528
+msgid "Linecons"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:529
+#: shortcodes/shortcodes_to_vc_mapping.php:924
+#: shortcodes/shortcodes_to_vc_mapping.php:1047
+#: shortcodes/shortcodes_to_vc_mapping.php:2022
+#: shortcodes/shortcodes_to_vc_mapping.php:2028
+#: shortcodes/shortcodes_to_vc_mapping.php:2033
+msgid "Elegant Icons Font"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:530
+#: shortcodes/shortcodes_to_vc_mapping.php:925
+#: shortcodes/shortcodes_to_vc_mapping.php:1048
+#: shortcodes/shortcodes_to_vc_mapping.php:2023
+#: shortcodes/shortcodes_to_vc_mapping.php:2029
+#: shortcodes/shortcodes_to_vc_mapping.php:2034
+msgid "Fast Food Icons"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:534
+msgid "Select icon library."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:538
+#: shortcodes/shortcodes_to_vc_mapping.php:554
+#: shortcodes/shortcodes_to_vc_mapping.php:570
+#: shortcodes/shortcodes_to_vc_mapping.php:586
+#: shortcodes/shortcodes_to_vc_mapping.php:601
+#: shortcodes/shortcodes_to_vc_mapping.php:617
+#: shortcodes/shortcodes_to_vc_mapping.php:634
+#: shortcodes/shortcodes_to_vc_mapping.php:934
+#: shortcodes/shortcodes_to_vc_mapping.php:950
+#: shortcodes/shortcodes_to_vc_mapping.php:967
+#: shortcodes/shortcodes_to_vc_mapping.php:1057
+#: shortcodes/shortcodes_to_vc_mapping.php:1073
+#: shortcodes/shortcodes_to_vc_mapping.php:1090
+#: shortcodes/shortcodes_to_vc_mapping.php:1829
+#: shortcodes/shortcodes_to_vc_mapping.php:1848
+#: shortcodes/shortcodes_to_vc_mapping.php:1866
+#: shortcodes/shortcodes_to_vc_mapping.php:1884
+#: shortcodes/shortcodes_to_vc_mapping.php:1902
+#: shortcodes/shortcodes_to_vc_mapping.php:1920
+msgid "Icon"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:550
+#: shortcodes/shortcodes_to_vc_mapping.php:566
+#: shortcodes/shortcodes_to_vc_mapping.php:582
+#: shortcodes/shortcodes_to_vc_mapping.php:613
+#: shortcodes/shortcodes_to_vc_mapping.php:630
+#: shortcodes/shortcodes_to_vc_mapping.php:647
+#: shortcodes/shortcodes_to_vc_mapping.php:946
+#: shortcodes/shortcodes_to_vc_mapping.php:963
+#: shortcodes/shortcodes_to_vc_mapping.php:980
+#: shortcodes/shortcodes_to_vc_mapping.php:1069
+#: shortcodes/shortcodes_to_vc_mapping.php:1086
+#: shortcodes/shortcodes_to_vc_mapping.php:1103
+#: shortcodes/shortcodes_to_vc_mapping.php:1842
+#: shortcodes/shortcodes_to_vc_mapping.php:1861
+#: shortcodes/shortcodes_to_vc_mapping.php:1879
+#: shortcodes/shortcodes_to_vc_mapping.php:1897
+#: shortcodes/shortcodes_to_vc_mapping.php:1915
+#: shortcodes/shortcodes_to_vc_mapping.php:1933
+msgid "Select icon from library."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:651
+msgid "Pre-Title"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:654
+msgid "Enter the banner pre-title."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:658
+msgid "Special Pre-Title Font"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:660
+msgid "Recommended to be used only with short texts (5 to 6 characters)."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:664
+msgid "Main Title"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:667
+msgid "Enter the banner main title."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:672
+msgid "Main Title Font Size"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:676
+#: shortcodes/shortcodes_to_vc_mapping.php:1384
+msgid "Big"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:678
+msgid "Choose predefined main title font size."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:683
+msgid "Sub-Title"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:686
+msgid "Enter Sub-Title."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:693
+msgid "Choose image for the banner. (Actual size will be used)"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:697
+#: shortcodes/shortcodes_to_vc_mapping.php:1297
+msgid "Link"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:700
+msgid "Enter the URL where the banner will lead to."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:704
+msgid "Open in"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:706
+msgid "New window"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:707
+msgid "Same window"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:710
+msgid "Open link in new window or current."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:714
+#: shortcodes/shortcodes_to_vc_mapping.php:1290
+msgid "Button Text"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:717
+#: shortcodes/shortcodes_to_vc_mapping.php:1293
+msgid "Enter text for the button."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:721
+#: shortcodes/shortcodes_to_vc_mapping.php:784
+msgid "Color Scheme"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:727
+msgid "Choose the color scheme."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:731
+#: shortcodes/shortcodes_to_vc_mapping.php:908
+#: shortcodes/shortcodes_to_vc_mapping.php:1146
+#: shortcodes/shortcodes_to_vc_mapping.php:1268
+msgid "Appear Animation"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:735
+#: shortcodes/shortcodes_to_vc_mapping.php:912
+#: shortcodes/shortcodes_to_vc_mapping.php:1150
+#: shortcodes/shortcodes_to_vc_mapping.php:1272
+msgid "From Left"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:736
+#: shortcodes/shortcodes_to_vc_mapping.php:913
+#: shortcodes/shortcodes_to_vc_mapping.php:1151
+#: shortcodes/shortcodes_to_vc_mapping.php:1273
+msgid "From Right"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:737
+#: shortcodes/shortcodes_to_vc_mapping.php:914
+#: shortcodes/shortcodes_to_vc_mapping.php:1152
+#: shortcodes/shortcodes_to_vc_mapping.php:1274
+msgid "From Bottom"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:740
+#: shortcodes/shortcodes_to_vc_mapping.php:917
+#: shortcodes/shortcodes_to_vc_mapping.php:1155
+#: shortcodes/shortcodes_to_vc_mapping.php:1277
+msgid "Choose how the element will appear."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:754
+msgid "CloudZoom gallery"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:757
+msgid "Output CloudZoom gallery"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:762
+msgid "Images"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:765
+msgid "Choose images for the gallery."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:779
+msgid "Customisable Menu List"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:790
+msgid "Choose color scheme."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:811
+msgid "Enter menu category names."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:816
+msgid "Lightbox"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:818
+msgid "Show link that opens the featured image in lightbox"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:822
+msgid "Sortable"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:824
+msgid "Enable Sortable"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:825
+msgid "Show menu categories on top and filter entries from specific categories."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:830
+msgid "Hide Images"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:832
+#: shortcodes/shortcodes_to_vc_mapping.php:839
+msgid "Enable"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:833
+msgid "No images in the menu and menu entries."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:837
+msgid "Simple Menu List"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:840
+msgid "No links to single menu entry page."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:844
+msgid "Number of Menu Entries Listed"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:847
+msgid "Enter the number of menu entries to be displayed."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:855
+msgid "Set number of menu entries to be skipped. ( Number of Menu Entries must be filled )"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:868
+msgid "Icon Teaser"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:872
+msgid "Icon teaser"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:876
+#: shortcodes/shortcodes_to_vc_mapping.php:1022
+#: shortcodes/shortcodes_to_vc_mapping.php:1219
+#: shortcodes/shortcodes_to_vc_mapping.php:1328
+#: shortcodes/shortcodes_to_vc_mapping.php:1406
+#: shortcodes/shortcodes_to_vc_mapping.php:1672
+#: shortcodes/shortcodes_to_vc_mapping.php:2239
+#: widgets/wc_widgets/LafkaProductFilterWidget.php:74
+msgid "Title"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:879
+#: shortcodes/shortcodes_to_vc_mapping.php:1025
+msgid "Enter title"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:887
+#: shortcodes/shortcodes_to_vc_mapping.php:1033
+msgid "Enter subtitle"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:891
+#: shortcodes/shortcodes_to_vc_mapping.php:1037
+msgid "Title/Subtitle Color"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:894
+#: shortcodes/shortcodes_to_vc_mapping.php:1040
+msgid "Choose Title/Subtitle color."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:898
+msgid "Align"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:904
+msgid "Choose alignment"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:921
+msgid "Icon library / Custom Image"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:926
+#: shortcodes/shortcodes_to_vc_mapping.php:1049
+msgid "Use Custom Image"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:930
+#: shortcodes/shortcodes_to_vc_mapping.php:1053
+msgid "Select icon library or select image."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:987
+#: shortcodes/shortcodes_to_vc_mapping.php:1110
+msgid "Choose image instead of icon. (60 x 60 size will be used)"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1003
+#: shortcodes/shortcodes_to_vc_mapping.php:1161
+msgid "Text"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1006
+#: shortcodes/shortcodes_to_vc_mapping.php:1164
+msgid "Enter the text that will be used with the icon"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1014
+msgid "Icon Box"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1018
+msgid "Icon box"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1044
+msgid "Icon Library / Custom Image"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1131
+msgid "Choose icon alignment."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1135
+msgid "Icon Style"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1138
+msgid "Circle"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1139
+msgid "Square"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1140
+msgid "Clean"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1142
+msgid "Choose icon style."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1172
+msgid "Map"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1175
+msgid "Map with location"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1180
+msgid "Location Title"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1183
+msgid "Will appear when hover over the location."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1188
+msgid "Latitude"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1191
+msgid "Enter location latitude."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1195
+msgid "Longitude"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1198
+msgid "Enter location longitude."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1198
+msgctxt "theme-options"
+msgid "Go to %s and get your location coordinates: </br>(e.g. Latitude: 40.588372 / Longitude: -74.240112)"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1202
+msgid "Map height"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1205
+msgid "Map height in px."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1211
+msgid "Pricing Table"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1214
+msgid "Create pricing tables"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1222
+msgid "Enter the table title."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1227
+msgid "Sub Title"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1230
+msgid "Enter sub title."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1234
+msgid "Styled for Dark Background"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1236
+#: shortcodes/shortcodes_to_vc_mapping.php:2110
+#: shortcodes/shortcodes_to_vc_mapping.php:2117
+msgid "Yes"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1240
+msgid "Price Bills"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1243
+msgid "Enter the bills price for this package. e.g. 157."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1247
+msgid "Price Coins"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1250
+msgid "Enter the coins for the price. e.g. 49 , for a price of 157.49"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1254
+msgid "Currency Symbol"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1257
+msgid "Enter the currency symbol for the price. e.g. $."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1261
+msgid "Period"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1264
+msgid "e.g. per month."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1283
+msgid "Content"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1286
+msgid "Enter the pricing table content"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1300
+msgid "Enter the URL for the button."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1304
+msgid "Accent Color"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1307
+msgid "Choose accent color of the pricing table."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1311
+msgid "Featured"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1313
+msgid "Mark as featured"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1320
+msgid "Contact Form"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1323
+msgid "Configurable Contact Form"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1331
+msgid "Enter contact form title."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1336
+msgid "Receiving Email Address"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1339
+msgid "Email address for receing the contact form email."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1344
+msgid "Use Captcha"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1346
+msgid "Use simple captcha for the contact form"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1350
+msgid "Select Fields for the Contact Form"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1359
+msgid "Choose which fields to be displayed on the contact form. Selcted fields will also be required fields. The message textarea will be always displayed."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1368
+msgid "Customized Countdown"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1373
+msgid "Expire Date"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1376
+msgid "Enter the end date for the counter."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1376
+msgid "Use following format YYYY/MM/DD HH:MM:SS, e.g. 2020/04/25 17:45:00"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1387
+msgid "Size"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1388
+msgid "Select counter size."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1395
+msgid "Choose counter color."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1403
+msgid "Date"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1404
+msgid "ID"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1405
+msgid "Author"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1407
+msgid "Modified"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1408
+msgid "Random"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1409
+msgid "Comment count"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1410
+msgid "Menu order"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1411
+msgid "Menu order and title"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1412
+msgid "Include"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1425
+msgid "Top Rated Products Carousel"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1429
+#: shortcodes/shortcodes_to_vc_mapping.php:1546
+msgid "List all products on sale in carousel"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1433
+#: shortcodes/shortcodes_to_vc_mapping.php:1472
+#: shortcodes/shortcodes_to_vc_mapping.php:1511
+#: shortcodes/shortcodes_to_vc_mapping.php:1550
+#: shortcodes/shortcodes_to_vc_mapping.php:1589
+#: shortcodes/shortcodes_to_vc_mapping.php:1614
+msgid "Per page"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1436
+#: shortcodes/shortcodes_to_vc_mapping.php:1553
+#: shortcodes/shortcodes_to_vc_mapping.php:1592
+#: shortcodes/shortcodes_to_vc_mapping.php:1618
+msgid "How much items per page to show"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1443
+#: shortcodes/shortcodes_to_vc_mapping.php:1560
+#: shortcodes/shortcodes_to_vc_mapping.php:1599
+#: shortcodes/shortcodes_to_vc_mapping.php:1626
+#: shortcodes/shortcodes_to_vc_mapping.php:1741
+msgid "How much columns grid"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1447
+#: shortcodes/shortcodes_to_vc_mapping.php:1486
+#: shortcodes/shortcodes_to_vc_mapping.php:1525
+#: shortcodes/shortcodes_to_vc_mapping.php:1564
+#: shortcodes/shortcodes_to_vc_mapping.php:1630
+#: shortcodes/shortcodes_to_vc_mapping.php:1724
+#: shortcodes/shortcodes_to_vc_mapping.php:1778
+msgid "Order by"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1450
+#: shortcodes/shortcodes_to_vc_mapping.php:1489
+#: shortcodes/shortcodes_to_vc_mapping.php:1528
+#: shortcodes/shortcodes_to_vc_mapping.php:1567
+#: shortcodes/shortcodes_to_vc_mapping.php:1636
+#: shortcodes/shortcodes_to_vc_mapping.php:1727
+msgid "Select how to sort retrieved products. More at %s."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1454
+#: shortcodes/shortcodes_to_vc_mapping.php:1493
+#: shortcodes/shortcodes_to_vc_mapping.php:1532
+#: shortcodes/shortcodes_to_vc_mapping.php:1571
+#: shortcodes/shortcodes_to_vc_mapping.php:1731
+#: shortcodes/shortcodes_to_vc_mapping.php:1786
+msgid "Order way"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1457
+#: shortcodes/shortcodes_to_vc_mapping.php:1496
+#: shortcodes/shortcodes_to_vc_mapping.php:1535
+#: shortcodes/shortcodes_to_vc_mapping.php:1574
+#: shortcodes/shortcodes_to_vc_mapping.php:1646
+#: shortcodes/shortcodes_to_vc_mapping.php:1734
+msgid "Designates the ascending or descending order. More at %s."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1464
+msgid "Recent Products Carousel"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1468
+msgid "Lists recent products in carousel"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1475
+#: shortcodes/shortcodes_to_vc_mapping.php:1514
+msgid "The \"per_page\" shortcode determines how many products to show on the page"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1482
+#: shortcodes/shortcodes_to_vc_mapping.php:1521
+msgid "The columns attribute controls how many columns wide the products should be before wrapping."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1503
+msgid "Featured Products Carousel"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1507
+msgid "Display products set as featured in carousel"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1542
+msgid "Sale Products Carousel"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1581
+msgid "Best Selling Products Carousel"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1585
+msgid "List best selling products in carousel"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1606
+msgid "Product Category Carousel"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1610
+msgid "Show products from category in carousel"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1640
+msgid "Sort order"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1650
+msgid "Category"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1657
+msgid "Product category lists"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1664
+msgid "Recently Viewed Products"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1668
+msgid "List recently viewed products"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1675
+msgid "Title for the shortcode."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1685
+msgid "Choose between grid and carousel layout."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1694
+msgid "How many products to be displayed on a row."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1699
+msgid "Number of Products"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1702
+msgid "Number of products to show."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1710
+msgid "Product Categories Carousel"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1714
+msgid "Display categories in carousel"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1718
+#: shortcodes/shortcodes_to_vc_mapping.php:1745
+msgid "Number"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1720
+msgid "The `number` field is used to display the number of products."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1747
+msgid "Hide empty"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1751
+msgid "Categories"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1757
+msgid "List of product categories"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1770
+msgid "Products Slider"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1774
+msgid "Display Products in slider"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1782
+msgid "Select how to sort retrieved products. More at %s. Default by Title"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1789
+msgid "Designates the ascending or descending order. More at %s. Default by ASC"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1793
+msgid "Products"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1802
+msgid "Enter List of Products"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1811
+msgid "On"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1818
+msgid "Autoplay Timeout"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1821
+msgid "Autoplay interval timeout in seconds."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1958
+msgid "WCMp Vendors List"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1962
+msgid "Displays registered vendors"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1966
+msgid "Order By"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1968
+msgid "Date Registered"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1969
+msgid "Vendor Name"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1970
+msgid "Product Category"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1973
+msgid "Sort vendors by chosen order parameter."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1978
+msgid "Order Way"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1984
+msgid "Designates the ascending or descending order."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1989
+msgid "Number of Vendors Listed"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1992
+msgid "Enter the number of vendors to be displayed. NOTE: If leaved empty, all vendors will be listed."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1997
+msgid "Hide Sorting Options"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:1999
+msgid "Hide \"Sort\" dropdown"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2057
+msgid "Paste the YouTube URL."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2058
+#: shortcodes/shortcodes_to_vc_mapping.php:2066
+#: shortcodes/shortcodes_to_vc_mapping.php:2073
+#: shortcodes/shortcodes_to_vc_mapping.php:2081
+#: shortcodes/shortcodes_to_vc_mapping.php:2089
+msgid "Lafka Video Background"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2062
+msgid "Video Opacity"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2065
+msgid "Set opacity fot the video."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2070
+msgid "Raster"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2072
+msgid "Enable Raster effect"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2077
+msgid "Start time"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2080
+msgid "Set the seconds the video should start at."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2085
+msgid "End time"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2088
+msgid "Set the seconds the video should stop at."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2097
+msgid "General row alignment"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2108
+msgid "Allow content overflow"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2115
+msgid "Fixed Background"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2131
+msgid "Dysplay Style"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2134
+msgid "Classic Style"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2135
+msgid "Lafka Style"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2138
+msgid "Choose between the standard VC style and Lafka style."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2147
+msgid "Line Accent"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2149
+msgid "Append line accent to the text."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2153
+msgid "Special Font"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2155
+msgid "Use special font for the heading."
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2204
+#: shortcodes/shortcodes_to_vc_mapping.php:2242
+msgid "Id"
+msgstr ""
+
+#: shortcodes/shortcodes_to_vc_mapping.php:2234
+msgid "Sku"
+msgstr ""
+
+#: widgets/LafkaAboutWidget.php:12
+msgid "Shows excerpt of the About us page"
+msgstr ""
+
+#: widgets/LafkaAboutWidget.php:26
+msgid "Read more"
+msgstr ""
+
+#: widgets/LafkaAboutWidget.php:34
+msgid "About %s store"
+msgstr ""
+
+#: widgets/LafkaAboutWidget.php:42
+#: widgets/LafkaContactsWidget.php:67
+#: widgets/LafkaLatestMenuEntriesWidget.php:95
+#: widgets/LafkaPaymentOptionsWidget.php:84
+#: widgets/LafkaPopularPostsWidget.php:98
+msgid "Title:"
+msgstr ""
+
+#: widgets/LafkaAboutWidget.php:46
+msgid "Choose the About us page:"
+msgstr ""
+
+#: widgets/LafkaContactsWidget.php:12
+msgid "Shows contact details"
+msgstr ""
+
+#: widgets/LafkaContactsWidget.php:56
+msgid "Have a Question?"
+msgstr ""
+
+#: widgets/LafkaContactsWidget.php:71
+msgid "Store working time:"
+msgstr ""
+
+#: widgets/LafkaContactsWidget.php:75
+msgid "Address:"
+msgstr ""
+
+#: widgets/LafkaContactsWidget.php:79
+msgid "Phone number:"
+msgstr ""
+
+#: widgets/LafkaContactsWidget.php:83
+msgid "Fax number:"
+msgstr ""
+
+#: widgets/LafkaContactsWidget.php:87
+msgid "Email address:"
+msgstr ""
+
+#: widgets/LafkaLatestMenuEntriesWidget.php:10
+msgid "List Restaurant Menu Entries with configurable options."
+msgstr ""
+
+#: widgets/LafkaLatestMenuEntriesWidget.php:11
+msgid "Lafka Latest Menu Entries"
+msgstr ""
+
+#: widgets/LafkaLatestMenuEntriesWidget.php:38
+msgid "Latest Menu Entries"
+msgstr ""
+
+#: widgets/LafkaLatestMenuEntriesWidget.php:98
+msgid "Number of entries to show:"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:10
+msgid "Display a list of available payment methods and seal code"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:37
+msgid "Payment Options"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:61
+msgid "American Express"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:62
+msgid "Cirrus"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:63
+msgid "Maestro"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:64
+msgid "Mastercard"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:65
+msgid "Visa"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:66
+msgid "Cash on delivery"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:67
+msgid "Direct Debit"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:68
+msgid "PayPal"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:69
+msgid "Cheque"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:70
+msgid "Google checkout"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:71
+msgid "2Checkout"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:72
+msgid "Delta"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:73
+msgid "Discover"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:74
+msgid "Moneybookers"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:75
+msgid "SOLO"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:76
+msgid "Switch"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:77
+msgid "Western Union"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:78
+msgid "Sage Pay"
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:79
+msgid "iDEAL "
+msgstr ""
+
+#: widgets/LafkaPaymentOptionsWidget.php:96
+msgid "Seal code:"
+msgstr ""
+
+#: widgets/LafkaPopularPostsWidget.php:11
+msgid "The most popular posts on your site"
+msgstr ""
+
+#: widgets/LafkaPopularPostsWidget.php:12
+msgid "Lafka Popular Posts"
+msgstr ""
+
+#: widgets/LafkaPopularPostsWidget.php:37
+msgid "Popular Posts"
+msgstr ""
+
+#: widgets/LafkaPopularPostsWidget.php:101
+msgid "Number of posts to show:"
+msgstr ""
+
+#: widgets/wc_widgets/LafkaProductFilterWidget.php:20
+msgid "Shows a custom attribute in a widget which lets you narrow down the list of products when viewing product categories, using default attribute types."
+msgstr ""
+
+#: widgets/wc_widgets/LafkaProductFilterWidget.php:22
+msgid "Lafka Product Filter"
+msgstr ""
+
+#: widgets/wc_widgets/LafkaProductFilterWidget.php:73
+msgid "Filter by"
+msgstr ""
+
+#: widgets/wc_widgets/LafkaProductFilterWidget.php:79
+msgid "Attribute"
+msgstr ""
+
+#: widgets/wc_widgets/LafkaProductFilterWidget.php:85
+msgid "Query type"
+msgstr ""
+
+#: widgets/wc_widgets/LafkaProductFilterWidget.php:87
+msgid "AND"
+msgstr ""
+
+#: widgets/wc_widgets/LafkaProductFilterWidget.php:88
+msgid "OR"
+msgstr ""
+
+#: widgets/wc_widgets/LafkaProductFilterWidget.php:225
+msgid "Any %s"
+msgstr ""
