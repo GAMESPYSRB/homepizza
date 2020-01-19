@@ -24,9 +24,7 @@
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:wp="http://wordpress.org/export/1.2/"
 >
-<wp:wxr_version>1.1</wp:wxr_version>
 <channel>
-
 	<title>Pizza - Lafka Theme Demo</title>
 	<link>https://lafka.althemist.com/pizza</link>
 	<description>Just another Lafka Sites site</description>
