@@ -204,7 +204,7 @@
 			fixedContentPos: false
 		});
 
-		$(".prod_hold a.add_to_wishlist").attr("title", "Add to wishlist");
+		$(".prod_hold a.add_to_wishlist").attr("title", "Dodaj u favorite");
 
 		// -------------------------------------------------------------------------------------------------------
 		// SLIDING ELEMENTS

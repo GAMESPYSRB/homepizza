@@ -41,7 +41,7 @@ if ( lafka_get_option( 'use_quickview' ) && $product->get_type() != 'composite' 
 		$lafka_quickview_link_label = __( 'More Options', 'lafka' );
 		$classes[] = 'lafka-more-options';
 	} else {
-		$lafka_quickview_link_label = __( 'Order Now', 'lafka' );
+		$lafka_quickview_link_label = __( 'Poruči', 'lafka' );
 	}
 
 	echo '<a href="#" class="'.esc_attr(implode(' ', $classes)).'" data-id="' . esc_attr( $product->get_id() ) . '" title="' . esc_attr( $lafka_quickview_link_label ) . '">' . esc_html( $lafka_quickview_link_label ) . '</a>';

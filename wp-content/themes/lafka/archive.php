@@ -98,8 +98,8 @@ switch ($lafka_general_blog_style) {
 							?>
 
                             <div class="navigation group">
-                                <div class="alignleft"><?php next_posts_link( __( 'Next &raquo;', 'lafka' ) ) ?></div>
-                                <div class="alignright"><?php previous_posts_link( __( '&laquo; Back', 'lafka' ) ) ?></div>
+                                <div class="alignleft"><?php next_posts_link( __( 'Sledeći &raquo;', 'lafka' ) ) ?></div>
+                                <div class="alignright"><?php previous_posts_link( __( '&laquo; Nazad', 'lafka' ) ) ?></div>
                             </div>
 
 						<?php endif; ?>

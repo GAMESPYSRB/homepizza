@@ -103,8 +103,8 @@ $lafka_sidebar_classes[] =  apply_filters('lafka_left_sidebar_position_class', '
 					?>
 
 					<div class="navigation group">
-						<div class="alignleft"><?php next_posts_link(esc_html__('Next &raquo;', 'lafka')) ?></div>
-						<div class="alignright"><?php previous_posts_link(esc_html__('&laquo; Back', 'lafka')) ?></div>
+						<div class="alignleft"><?php next_posts_link(esc_html__('Sledeći &raquo;', 'lafka')) ?></div>
+						<div class="alignright"><?php previous_posts_link(esc_html__('&laquo; Nazad', 'lafka')) ?></div>
 					</div>
 
 				<?php endif; ?>

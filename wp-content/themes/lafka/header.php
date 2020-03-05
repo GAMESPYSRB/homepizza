@@ -182,7 +182,7 @@
 							<div class="lafka-search-cart-holder">
 								<?php if (lafka_get_option('show_searchform')): ?>
                                     <div class="lafka-search-trigger">
-                                        <a href="#" title="<?php echo esc_attr__('Search', 'lafka') ?>"><i class="fa fa-search"></i></a>
+                                        <a href="#" title="<?php echo esc_attr__('Pretraži', 'lafka') ?>"><i class="fa fa-search"></i></a>
                                     </div>
 								<?php endif; ?>
 
@@ -199,7 +199,7 @@
 
 								<?php if (lafka_should_show_wishlist_icon()): ?>
 									<div class="lafka-wishlist-counter">
-										<a href="<?php echo esc_url(YITH_WCWL()->get_wishlist_url()); ?>" title="<?php echo esc_attr__('Favorites', 'lafka') ?>">
+										<a href="<?php echo esc_url(YITH_WCWL()->get_wishlist_url()); ?>" title="<?php echo esc_attr__('Favoriti', 'lafka') ?>">
 											<i class="fa fa-heart"></i>
 											<span class="lafka-wish-number"><?php echo esc_html(YITH_WCWL()->count_products()); ?></span>
 										</a>
@@ -224,7 +224,7 @@
 									}
 									?>
                                     <div id="lafka-account-holder" <?php if(count($lafka_account_holder_classes)) echo 'class="'.implode(' ', $lafka_account_holder_classes).'"' ?> >
-                                        <a href="<?php echo esc_url( get_permalink( get_option( 'woocommerce_myaccount_page_id' ) ) ); ?>" title="<?php esc_attr_e( 'My Account', 'lafka' ); ?>">
+                                        <a href="<?php echo esc_url( get_permalink( get_option( 'woocommerce_myaccount_page_id' ) ) ); ?>" title="<?php esc_attr_e( 'Moj nalog', 'lafka' ); ?>">
                                             <i class="fa fa-user"></i>
                                         </a>
                                         <div class="lafka-header-account-link-holder">

@@ -46,7 +46,7 @@ if ($lafka_title_background_image) {
                 <?php lafka_breadcrumb() ?>
                 <!-- END OF BREADCRUMB -->
                 <!-- TITLE -->
-                <h1 class="heading-title"><?php printf(esc_html__('Search Results for: %s', 'lafka'), '<span>' . get_search_query() . '</span>'); ?></h1>
+                <h1 class="heading-title"><?php printf(esc_html__('Pretraga za: %s', 'lafka'), '<span>' . get_search_query() . '</span>'); ?></h1>
                 <!-- END OF TITLE -->
             </div>
 		</div>
@@ -86,8 +86,8 @@ if ($lafka_title_background_image) {
 					?>
 
 					<div class="navigation group">
-						<div class="alignleft"><?php next_posts_link(esc_html__('Next &raquo;', 'lafka')) ?></div>
-						<div class="alignright"><?php previous_posts_link(esc_html__('&laquo; Back', 'lafka')) ?></div>
+						<div class="alignleft"><?php next_posts_link(esc_html__('Sledeći &raquo;', 'lafka')) ?></div>
+						<div class="alignright"><?php previous_posts_link(esc_html__('&laquo; Nazad', 'lafka')) ?></div>
 					</div>
 
 				<?php endif; ?>

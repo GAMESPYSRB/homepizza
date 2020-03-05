@@ -6,14 +6,14 @@ get_header(); ?>
         <div class="inner fixed">
             <div class="lafka-title-text-container">
                 <?php lafka_breadcrumb() ?>
-                <h1 class="heading-title"><?php esc_html_e( 'Page not found', 'lafka' ) ?></h1>
+                <h1 class="heading-title"><?php esc_html_e( 'Strana nije pronađena', 'lafka' ) ?></h1>
             </div>
         </div>
     </div>
     <div class="inner">
         <div id="main" class="fixed box box-common">
             <div class="content_holder">
-                <p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try a search?', 'lafka' ); ?></p>
+                <p><?php esc_html_e( 'Ništa nije pronađeno na ovoj lokaciji. Probajte da pretražite.', 'lafka' ); ?></p>
 				<?php get_search_form(); ?>
             </div>
         </div>

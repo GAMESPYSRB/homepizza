@@ -30,7 +30,7 @@ if ( $related_products ) : ?>
     <section class="related products">
 
         <h2>
-		    <?php esc_html_e( 'Other', 'lafka' ); ?>
+		    <?php esc_html_e( 'Drugo', 'lafka' ); ?>
 		    <?php echo ' '; ?>
 		    <?php if ( $lafka_chosen_category !== null && $lafka_chosen_category->slug !== 'uncategorized' ): ?>
                 <a class="lafka-related-browse"
@@ -39,7 +39,7 @@ if ( $related_products ) : ?>
 				    <?php echo esc_html( $lafka_chosen_category->name ) . ' '; ?>
                 </a>
 		    <?php else: ?>
-			    <?php esc_html_e( 'Products', 'lafka' ); ?>
+			    <?php esc_html_e( 'Proizvodi', 'lafka' ); ?>
 		    <?php endif; ?>
 
 		    <?php esc_html_e( 'you\'ll love', 'lafka' ); ?>

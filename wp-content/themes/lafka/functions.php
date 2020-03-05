@@ -91,7 +91,7 @@ if ( ! function_exists( 'lafka_breadcrumb' ) ) {
 	function lafka_breadcrumb( $delimiter = ' <span class="lafka-breadcrumb-delimiter">/</span> ' ) {
 
 		if ( lafka_get_option( 'show_breadcrumb', 1 ) && ! is_404() ) {
-			$home      = esc_html__( 'Home', 'lafka' ); // text for the 'Home' link
+			$home      = esc_html__( 'Početna', 'lafka' ); // text for the 'Home' link
 			$before    = '<span class="current-crumb">'; // tag before the current crumb
 			$after     = '</span>'; // tag after the current crumb
 			$brdcrmb   = '';

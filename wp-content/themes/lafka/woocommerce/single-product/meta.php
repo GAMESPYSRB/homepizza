@@ -39,7 +39,7 @@ global $post, $product;
             $size_tags = count($arr_tags);
         }
 
-        if($categories) echo '<span class="posted_in">'._n('Category:', 'Categories:', $size_categories, 'lafka').'</span>'.$categories;
+        if($categories) echo '<span class="posted_in">'._n('Kategorija:', 'Kategorije:', $size_categories, 'lafka').'</span>'.$categories;
 
         if($tags) echo '<span class="tagged_as">'._n('Tag:', 'Tags:', $size_tags, 'lafka').'</span>'.$tags;
     ?>
