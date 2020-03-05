@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'homepizza' );
 
 /** MySQL database username */
-define( 'DB_USER', 'newuser' );
+define( 'DB_USER', 'milos' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'newuser123' );
+define( 'DB_PASSWORD', 'milos' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
